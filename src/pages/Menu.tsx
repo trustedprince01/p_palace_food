@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Button } from "@/components/ui/button";
+import { Beer, Coffee, UtensilsCrossed, Star } from "lucide-react";
 
 const categories = [
   "All", "Breakfast", "Lunch", "Dinner", "Dessert", "Drinks", "Specials"
@@ -56,6 +57,46 @@ const menuItems = [
     description: "Grilled ribeye steak with roasted potatoes and vegetables",
     price: 28.99,
     image: "https://images.unsplash.com/photo-1579366948929-444eb79881eb"
+  },
+  {
+    id: 7,
+    name: "Craft Beer",
+    category: "Drinks",
+    description: "Selection of premium local craft beers",
+    price: 7.99,
+    image: "https://images.unsplash.com/photo-1535958636474-b021ee887b13"
+  },
+  {
+    id: 8,
+    name: "Signature Cocktail",
+    category: "Drinks",
+    description: "House specialty cocktail with premium spirits and fresh fruits",
+    price: 12.99,
+    image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b"
+  },
+  {
+    id: 9,
+    name: "Artisanal Coffee",
+    category: "Drinks",
+    description: "Premium coffee made with locally roasted beans",
+    price: 4.99,
+    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085"
+  },
+  {
+    id: 10,
+    name: "Chef's Special",
+    category: "Specials",
+    description: "Daily creation by our executive chef using seasonal ingredients",
+    price: 32.99,
+    image: "https://images.unsplash.com/photo-1544025162-d76694265947"
+  },
+  {
+    id: 11,
+    name: "Weekend Brunch Platter",
+    category: "Specials",
+    description: "Ultimate brunch experience with a variety of morning favorites",
+    price: 24.99,
+    image: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0"
   }
 ];
 
@@ -83,13 +124,15 @@ const Menu = () => {
           {categories.map(category => (
             <button 
               key={category}
-              className={`px-5 py-2 rounded-full transition-all ${
+              className={`px-5 py-2 rounded-full transition-all flex items-center gap-2 ${
                 activeCategory === category 
                 ? "bg-brand-orange text-white" 
                 : "bg-gray-100 text-gray-700 hover:bg-gray-200"
               }`}
               onClick={() => setActiveCategory(category)}
             >
+              {category === "Drinks" && <Beer className="w-4 h-4" />}
+              {category === "Specials" && <Star className="w-4 h-4" />}
               {category}
             </button>
           ))}

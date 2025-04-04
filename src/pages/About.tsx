@@ -55,7 +55,7 @@ const About = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <img 
-                src="https://images.unsplash.com/photo-1566554273541-37a9ca77b91f" 
+                src="https://images.unsplash.com/photo-1583394293214-28ded15ee548" 
                 alt="Chef John" 
                 className="w-full h-64 object-cover object-center"
               />
@@ -85,7 +85,7 @@ const About = () => {
             
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <img 
-                src="https://images.unsplash.com/photo-1583394293214-28ded15ee548" 
+                src="https://images.unsplash.com/photo-1566492031773-4f4e44671857" 
                 alt="Manager Michael" 
                 className="w-full h-64 object-cover object-center"
               />
