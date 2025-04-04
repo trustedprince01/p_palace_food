@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   return (
@@ -25,7 +26,9 @@ const AboutSection = () => {
             Keep healthy food readily available. When you get hungry, you're more likely to eat the first 
             thing you see on the counter or in the cupboard.
           </p>
-          <Button className="btn-primary">Explore Our Story</Button>
+          <Button className="btn-primary" asChild>
+            <Link to="/about">Explore Our Story</Link>
+          </Button>
         </div>
       </div>
     </section>

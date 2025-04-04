@@ -12,8 +12,8 @@ const HeroSection = () => {
           <h1 className="heading-xl">
             Good F<span className="inline-block"><img src="/lovable-uploads/b5bcc22e-079a-4fe9-81a1-522211ef2331.png" alt="Food Image" className="w-10 h-10 inline rounded-full" /></span>
             <span className="inline-block"><img src="/lovable-uploads/b5bcc22e-079a-4fe9-81a1-522211ef2331.png" alt="Food Image" className="w-10 h-10 inline rounded-full" /></span>d<br />
-            Good M<span className="inline-block"><img src="/lovable-uploads/7d865af1-5871-4cdd-83c1-f002178fee87.png" alt="Food Image" className="w-10 h-10 inline rounded-full" /></span>
-            <span className="inline-block"><img src="/lovable-uploads/7d865af1-5871-4cdd-83c1-f002178fee87.png" alt="Food Image" className="w-10 h-10 inline rounded-full" /></span>d
+            Good M<span className="inline-block"><img src="/lovable-uploads/b5bcc22e-079a-4fe9-81a1-522211ef2331.png" alt="Food Image" className="w-10 h-10 inline rounded-full" /></span>
+            <span className="inline-block"><img src="/lovable-uploads/b5bcc22e-079a-4fe9-81a1-522211ef2331.png" alt="Food Image" className="w-10 h-10 inline rounded-full" /></span>d
           </h1>
           <p className="text-gray-600 max-w-lg">
             The food palace is an established food retailer serving seasonal and chef-curated dishes for the best experience.

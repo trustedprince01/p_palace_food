@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const foodItems = [
   {
@@ -34,7 +35,7 @@ const PopularItemsSection = () => {
             <span className="text-brand-orange font-medium">Menu</span>
             <h2 className="heading-lg mt-2 flex items-center gap-3">
               Most Popular Items
-              <img src="/lovable-uploads/5f28344f-f5fd-4116-9e21-f19150a67979.png" alt="Food emoji" className="w-10 h-10" />
+              <img src="/lovable-uploads/b5bcc22e-079a-4fe9-81a1-522211ef2331.png" alt="Food image" className="w-10 h-10 rounded-full" />
             </h2>
           </div>
         </div>
@@ -66,7 +67,9 @@ const PopularItemsSection = () => {
         </div>
         
         <div className="text-center mt-12">
-          <Button className="btn-primary">See More Items</Button>
+          <Button className="btn-primary" asChild>
+            <Link to="/menu">See More Items</Link>
+          </Button>
         </div>
       </div>
     </section>
