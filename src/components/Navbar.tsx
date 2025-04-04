@@ -11,8 +11,12 @@ const Navbar = () => {
     <header className="py-4 bg-white/80 backdrop-blur-md sticky top-0 z-50">
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-full bg-brand-orange flex items-center justify-center text-white font-semibold border-2 border-brand-orange">
-            P
+          <div className="w-10 h-10 flex items-center justify-center">
+            <img 
+              src="/lovable-uploads/a781b6ac-0b81-4292-a63f-046bfe73c6df.png" 
+              alt="P.Palace Logo" 
+              className="w-full h-full object-contain"
+            />
           </div>
           <span className="font-bold text-xl">P.Palace</span>
         </div>
